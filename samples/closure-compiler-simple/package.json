@@ -1,0 +1,16 @@
+{
+  "name": "closure-compiler-simple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "google-closure-compiler": "^20170626.0.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "bundle": "gulp bundle"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
