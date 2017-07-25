@@ -1,1 +1,23 @@
 # Modules in motion
+
+## ES6 Syntax
+
+```js
+import defaultMember from "module-name";
+import * as name from "module-name";
+import { member } from "module-name";
+import { member as alias } from "module-name";
+import { member1 , member2 } from "module-name";
+import { member1 , member2 as alias2 , [...] } from "module-name";
+import defaultMember, { member [ , [...] ] } from "module-name";
+import defaultMember, * as name from "module-name";
+import "module-name";
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import>
+
+## CommonJS selective imports
+
+```js
+const { difference } = require('lodash');
+```

@@ -1,0 +1,3 @@
+- browser usage
+  - disturbing stats : www.netmarketshare.com
+  - more sensible stats: w3counter.com
