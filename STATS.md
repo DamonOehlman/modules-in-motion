@@ -35,8 +35,6 @@ $ babili < bundle.js | gzip | wc -c
   2527
 ```
 
-Summary: 25.05k vs 2.47k
-
 ## Browserify Samples
 
 ### CommonJS selective import
@@ -66,3 +64,11 @@ $ browserify src/main.js -o bundle.js
 $ babili < bundle.js | gzip | wc -c
   3884
 ```
+
+## Comparison Table
+
+|            | Selective | Selective (manual) |
+|------------|----------:|-------------------:|
+| Browserify |     24878 |               3884 |
+| Rollup     |     24632 |               2527 |
+| % Saved    |       ~1% |               ~35% |
