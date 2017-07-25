@@ -1,0 +1,18 @@
+{
+  "name": "browserify-simple",
+  "version": "1.0.0",
+  "description": "Simple browserify sample",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babili": "^0.1.4",
+    "browserify": "^14.4.0"
+  },
+  "scripts": {
+    "bundle": "browserify src/main.js -o bundle.js",
+    "postbundle": "babili < bundle.js | gzip | wc -c"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

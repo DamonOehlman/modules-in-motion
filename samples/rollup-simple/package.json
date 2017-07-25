@@ -5,11 +5,16 @@
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babili": "^0.1.4",
     "rollup": "^0.45.2",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "bundle": "rollup -c",
+    "postbundle": "babili < bundle.js | gzip | wc -c"
   }
 }
