@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babili": "^0.1.4",
+    "webpack": "3"
+  },
+  "scripts": {
+    "bundle": "webpack -p",
+    "postbundle": "babili < bundle.js | gzip | wc -c"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.4"
+  }
+}

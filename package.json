@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "bespoke-bullets": "^1.1.0",
+    "bespoke-progress": "^1.0.0",
+    "bespoke-state": "^1.0.0",
+    "bespoke-theme-nebula": "^1.0.1",
+    "bespoke-theme-tweakable": "^1.2.1",
+    "brfs": "^1.4.3",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "crel": "^3.0.1",
+    "shazam": "^2.0.0",
+    "shazamify": "^1.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "shazamify",
+      "brfs",
+      "babelify"
+    ]
+  },
+  "scripts": {
+    "start": "budo index.js --base dev -s bundle.js -o",
+    "bundle": "browserify index.js > bundle.js"
+  }
+}

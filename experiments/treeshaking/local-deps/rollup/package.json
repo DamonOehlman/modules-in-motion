@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "babili": "^0.1.4",
+    "rollup": "^0.45.2"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.4"
+  },
+  "scripts": {
+    "bundle": "rollup -c",
+    "postbundle": "babili < bundle.js | gzip | wc -c"
+  }
+}

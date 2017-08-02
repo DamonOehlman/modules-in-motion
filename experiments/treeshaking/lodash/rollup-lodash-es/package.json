@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "babili": "^0.1.4",
+    "rollup": "^0.45.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.4"
+  },
+  "scripts": {
+    "bundle": "rollup -c",
+    "postbundle": "babili < bundle.js | gzip | wc -c | awk '{ print \"scale=2;\" $1 \"/1024\" }' | bc -l"
+  }
+}

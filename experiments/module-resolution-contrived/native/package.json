@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "st": "^1.2.0"
+  },
+  "scripts": {
+    "prestart": "cp ../src/*.js .",
+    "start": "st -nc -p 8090 -i index.html"
+  }
+}
