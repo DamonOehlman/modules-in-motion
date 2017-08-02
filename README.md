@@ -1,32 +1,13 @@
 # Modules in motion
 
----
+This is a repository for the presentation "Modules in motion".
 
----
+The most interesting parts of the module is the generated output which can be viewed at:
 
-## ES6 Module imports
+http://damonoehlman.github.io/modules-in-motion/
 
-- 2 phase pass on imports
-  1. Static Analysis of Imports
-  2. Code execution
-- No dynamic imports permitted (at the moment)
+And; the experiments directory that can be found within this repo.  This is a series of experiments that I worked through to validate the data shared in various web posts and also to clarify some of my concerns about various implementations of things like tree shaking, etc.
 
----
+Additionally, a companion repo of this talk is probably of interested to you too:
 
-## Other Module Systems
-
-1. Code execution with inline import and executions of modules.
-2. Dynamic imports permitted
-
----
-
-## Practical differences
-
----
-
-# The Future
-
----
-
-
----
+https://github.com/DamonOehlman/es6-modules-browser-test
