@@ -1,4 +1,9 @@
-## ES6 Syntax Import - ref [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+# ES6 Import Syntax
+### [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+
+:::
+
+### The full list
 
 ```js
 import defaultMember from "module-name";
@@ -11,25 +16,44 @@ import defaultMember, { member [ , [...] ] } from "module-name";
 import defaultMember, * as name from "module-name";
 ```
 
+:::
+
+### The do no use (IMO)
+
 ```js
 import "module-name";
 ```
 
 :::
 
-## ES6 Export Syntax - ref [MDN](https://developer.mozilla.org/en/docs/web/javascript/reference/statements/export)
+# ES6 Export Syntax
+### [MDN](https://developer.mozilla.org/en/docs/web/javascript/reference/statements/export)
+
+:::
+
+### Export named 
 
 ```js
 export { name1, name2, …, nameN };
 export { variable1 as name1, variable2 as name2, …, nameN };
 export let name1, name2, …, nameN; // also var, function
 export let name1 = …, name2 = …, …, nameN; // also var, const
+```
 
+:::
+
+### Export default
+
+```js
 export default expression;
 export default function (…) { … } // also class, function*
 export default function name1(…) { … } // also class, function*
 export { name1 as default, … };
 ```
+
+:::
+
+### Passthrough import as export
 
 ```js
 export * from …;

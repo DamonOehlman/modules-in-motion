@@ -1,6 +1,8 @@
-## It's ok.  I didn't believe it either.
+# It's ok.  I didn't believe it either.
 
-#### So you can try for yourself...
+:::
+
+## So you can try for yourself...
 
 ```
 ❌  chrome

@@ -3,7 +3,7 @@ const fs = require('fs');
 const crel = require('crel');
 
 require('shazam')({
-  title: 'Typed JS',
+  title: 'Modules in Motion',
   theme: require('bespoke-theme-tweakable')({
     headerFont: 'Josefin Sans',
     displayFont: 'Open Sans'

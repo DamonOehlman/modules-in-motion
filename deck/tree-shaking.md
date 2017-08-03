@@ -47,11 +47,11 @@ import difference from 'lodash-es/difference';
 ## When it's my own modules?
 
 - It's _usually_ much better.
-- rollup.js seems smarter than webpack.
+- `rollup.js` seems smarter than `webpack`.
 
 :::
 
-#### Case 1: Direct imports of functions from the customers API.
+## Case 1: Direct imports
 
 ```js
 import { getCustomerData, updateCustomerData } from './api/customers.js';
@@ -59,7 +59,9 @@ import { getCustomerData, updateCustomerData } from './api/customers.js';
 
 _Both correctly shake out `deleteCustomerData`._
 
-#### Case 2: Aggregation of the customers API through an `api.js` module
+:::
+
+## Case 2: Passthrough via intermediate module
 
 ```js
 // main.js

@@ -7,19 +7,21 @@
 
 :::
 
-## WARNING: Presentation may contain personal bias
+## May contain trace amounts of bias
 
-- I still 💖 browserify (and thus CommonJS).
-- I never converted to WebPack (though I can see the appeal).
-- Transpilation is not my favourite thing (but I do like types so that's one area I think it's potentially worthwhile).
+- I still 💖 [`browserify`](https://github.com/substack/node-browserify)
+- I (personally) never converted to [`webpack`](https://webpack.js.org)
+- Transpilation is __not__ my favourite thing
+- I like typed JS (actually types in general)
 
 :::
 
 ## Talk overview
 
 1. Brief history of approaches to modularity in JS
-2. A walk through of ES6 modules (with CommonJS equivalents). Info on some gotchas.
-3. A look into the future.
+2. Walk through of ES6 modules (with CommonJS equivalents)
+3. A little detour into the land of tree shaking
+4. A look into the future
 
 :::
 
@@ -34,6 +36,6 @@
 
 ## Why do I care?
 
-1. I build modules (e.g. rtc.io)
+1. I build modules (e.g. [`rtc.io`](github.com/rtc-io))
 2. I like to use other peoples modules (when they look solid)
 3. I like applications I build to have sane structure

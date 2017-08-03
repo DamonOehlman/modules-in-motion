@@ -19,8 +19,9 @@ module.exports = [
     .data('ccSource', 'Unsplash')
     .data('ccAuthor', 'Annie Spratt'),
 
+  s.md(require('./start-using-now.md')),
+
   s()
-    .h2('You can start using ES6 modules now!')
     .ul([
       'Safari 10.1',
       'Edge 15 (Flagged)',
