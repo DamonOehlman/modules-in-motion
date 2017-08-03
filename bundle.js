@@ -22,7 +22,7 @@ const crel = require('crel');
 module.exports = [s().crel('div', { class: 'cc-image' }, [crel('img', { src: 'images/samuel-zeller-158996.jpg' })]).h1('The Future').data('ccSource', 'Unsplash').data('ccAuthor', 'Samuel Zeller'), s.md(require('./future.md')), s().crel('div', { class: 'cc-image' }, [crel('img', { src: 'images/annie-spratt-96529.jpg' })]).h1('Surprise !!!!').data('ccSource', 'Unsplash').data('ccAuthor', 'Annie Spratt'), s.md(require('./start-using-now.md')), s().ul(['Safari 10.1', 'Edge 15 (Flagged)', ['Firefox 54 (Flagged)', crel('img', { src: 'images/es6-modules-enable-firefox.png' })], ['Chrome 60 (Flagged)', crel('img', { src: 'images/es6-modules-enable-chrome.png' })]]), s.md(require('./test-results.md')), s().crel('div', { class: 'cc-image' }, [crel('img', { src: 'images/nuno-silva-33238.jpg' })]).h1('Where is this leading?').data('ccSource', 'Unsplash').data('ccAuthor', 'Nuno Silva')];
 
 },{"./":9,"./future.md":6,"./start-using-now.md":15,"./test-results.md":16,"crel":28}],6:[function(require,module,exports){
-module.exports = "## Dynamically importing modules\n\n```js\nimport(`plugins/${pluginName}.js`).then(plugin => {\n  plugin.doTheThing();\n});\n```\n\n```js\nPromise.all([\n  import('./plugins/a.js'),\n  import('./plugins/b.js')\n]).then(([a, b]) => {\n  // do things with a and b\n});\n```\n";
+module.exports = "## `import()` - Stage 3\n\n```js\nimport(`plugins/${pluginName}.js`).then(plugin => {\n  plugin.doTheThing();\n});\n```\n\n```js\nPromise.all([\n  import('./plugins/a.js'),\n  import('./plugins/b.js')\n]).then(([a, b]) => {\n  // do things with a and b\n});\n```\n";
 },{}],7:[function(require,module,exports){
 const titledContent = require('./lib/titled-content');
 

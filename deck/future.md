@@ -1,4 +1,4 @@
-## Dynamically importing modules
+## `import()` - Stage 3
 
 ```js
 import(`plugins/${pluginName}.js`).then(plugin => {
