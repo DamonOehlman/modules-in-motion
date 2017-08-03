@@ -1,19 +1,7 @@
 var app = (function(){
 
-  function validateEmail(email) {
-    return Promise.resolve(true);
-  }
-
-  function getCustomerData(id) {
-    return Promise.resolve({
-      name: 'alice',
-      email: 'alice@test.com'
-    });
-  }
-
-  function updateCustomerData(id, customerData) {
-    return Promise.reject(new Error(`could not update customer ${id}`));
-  }
+  //= validators/email.js
+  //= api.js
 
   function run() {
     const customerId = prompt('get user id');

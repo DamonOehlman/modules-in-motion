@@ -10,6 +10,12 @@
 
 :::
 
+### IIFE (Comment Include System)
+
+<<< ./snippets/iife/comment-includes/main.js
+
+:::
+
 ## AMD
 
 <<< ./snippets/amd/app.js
