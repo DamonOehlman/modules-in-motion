@@ -8,7 +8,7 @@
     "bespoke-theme-tweakable": "^1.2.1",
     "brfs": "^1.4.3",
     "browserify": "^14.4.0",
-    "budo": "^10.0.4",
+    "budo": "^11.6.1",
     "crel": "^3.0.1",
     "shazam": "^2.0.0",
     "shazamify": "^1.1.0"
