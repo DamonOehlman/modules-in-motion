@@ -6,7 +6,7 @@
     "bespoke-state": "^1.0.0",
     "bespoke-theme-nebula": "^1.0.1",
     "bespoke-theme-tweakable": "^1.2.1",
-    "brfs": "^1.4.3",
+    "brfs": "^1.4.4",
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
     "crel": "^3.0.1",
