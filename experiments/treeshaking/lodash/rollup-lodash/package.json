@@ -11,11 +11,15 @@
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "bundle": "rollup -c",
     "postbundle": "babili < bundle.js | gzip | wc -c | awk '{ print \"scale=2;\" $1 \"/1024\" }' | bc -l",
-    "lodash-size": "babili < node_modules/lodash/lodash.js | gzip | wc -c"
-  }
+    "lodash-size": "babili < node_modules/lodash/lodash.js | gzip | wc -c",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
