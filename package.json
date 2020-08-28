@@ -11,7 +11,8 @@
     "budo": "^11",
     "crel": "^4",
     "shazam": "^2.1.0",
-    "shazamify": "^1.2.0"
+    "shazamify": "^1.2.0",
+    "snyk": "^1.385.2"
   },
   "browserify": {
     "transform": [
@@ -22,9 +23,12 @@
   },
   "scripts": {
     "start": "budo index.js --base dev -s bundle.js -o",
-    "bundle": "browserify index.js > bundle.js"
+    "bundle": "browserify index.js > bundle.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4"
-  }
+  },
+  "snyk": true
 }
