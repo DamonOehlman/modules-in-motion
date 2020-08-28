@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - budo > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
+    - budo > watchify-middleware > watchify > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-08-28T13:26:55.769Z'
