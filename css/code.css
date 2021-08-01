@@ -7,6 +7,11 @@ pre {
   position: relative;
 }
 
+pre[fenced="true"] {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 pre + pre {
   margin-top: 1vh;
 }
@@ -15,6 +20,7 @@ code.hljs {
   margin: 3vh 2vw;
   background: none;
   padding: 0;
+  overflow: hidden;
 }
 
 h4 {

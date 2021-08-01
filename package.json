@@ -7,10 +7,10 @@
     "bespoke-theme-nebula": "^1.0.1",
     "bespoke-theme-tweakable": "^1.2.1",
     "brfs": "^2",
-    "browserify": "^16",
+    "browserify": "^17.0.0",
     "budo": "^11",
     "crel": "^4",
-    "shazam": "^2.1.0",
+    "shazam": "^2.2.0",
     "shazamify": "^1.2.0"
   },
   "browserify": {
@@ -25,6 +25,6 @@
     "bundle": "browserify index.js > bundle.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.4"
+    "@babel/core": "^7.14.8"
   }
 }
