@@ -5,7 +5,7 @@
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "lodash-es": "^4.17.4"
+    "lodash-es": "^4.17.21"
   },
   "scripts": {
     "bundle": "rollup -c",
